@@ -1,0 +1,21 @@
+body aside li a {
+  display: block;
+}
+body aside,
+body aside .sidebar,
+body aside .nav,
+body aside li,
+body aside a {
+  width: 210px;
+}
+.view-mask {
+  /* background-color: #fff;
+	filter:alpha(opacity=70); */
+  left: 210px;
+}
+.view-mask .progress-info.progress-striped .bar {
+  filter: none;
+  background-color: none;
+  background-image: url("../img/loading002.gif");
+  background-repeat: repeat-x;
+}

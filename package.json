@@ -1,0 +1,28 @@
+{
+  "name": "2.1.4",
+  "version": "1.0.0",
+  "description": "- `dashboard.html`\r     - 插件模版，基础布局，css，javascript 初始化所需插件加载均写在页面中\r     - 引用地址中含有`{version}`关键字符的地址需要在php引用中动态替换版本号所用\r     - `<!--[if IE 9]> ... <![endif]-->`为低版本IE浏览器兼容所用",
+  "main": "dashboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "smallKugua",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.3.0",
+    "gulp-file-include": "^0.13.7",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-packages": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-replace": "^0.4.2",
+    "gulp-uglify": "^1.4.1",
+    "q": "^1.4.1"
+  }
+}

@@ -1,0 +1,22 @@
+@sidebarWidth:210px;
+body{
+	aside {
+		li {
+			a{ 
+				display: block;
+			}
+		}
+		 &,.sidebar,.nav,li,a{width:@sidebarWidth;}
+	}
+}
+.view-mask {
+	/* background-color: #fff;
+	filter:alpha(opacity=70); */
+	left: 210px;
+	.progress-info.progress-striped .bar{
+		filter:none;
+		background-color: none;
+		background-image: url("../img/loading002.gif");
+		background-repeat:  repeat-x;
+	}
+}
